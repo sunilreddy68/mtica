@@ -1,3 +1,2 @@
-inpstr=input("Enter your name:")
-outstr="Good Morning"+" "+inpstr
-print(outstr)
+temp=[10,'hello','python',28,9.0]
+print(temp)
