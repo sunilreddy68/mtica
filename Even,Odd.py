@@ -17,3 +17,4 @@ print("Odd:",*lstOdd)
 print("min:",min(lstOdd))
 print("max:",max(lstOdd))
 print("avg:",round(sum(lstOdd)/len(lstOdd),1))
+ 
