@@ -1,10 +1,13 @@
-def printSeries(n):
-    temp=[]
-    for i in range(n+1):
-        temp.append(i)
-    return temp
-a=int(input("Enter a number:"))
-ans=printSeries(a)
-print(*ans)
-print(sum(ans))
- 
+def printSeriesIncreasing(ch,n):
+    for i in range(1,n+1,1):
+        print(ch*i)
+    return None
+def printSeriesDecreasing(ch,n):
+    for i in range(n,0,-1):
+        print(ch*i)
+    return None
+inpCh=input("Enter a character:")
+inpNum=int(input("Enter a number:"))
+printSeriesIncreasing(inpCh,inpNum)
+print('-'*40)
+printSeriesDecreasing(inpCh,inpNum)
